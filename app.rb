@@ -18,4 +18,6 @@ class App < Sinatra::Base
     @number.times {@array << @phrase}
     "#{@array}"
   end
+  
+  get 'say/'
 end
