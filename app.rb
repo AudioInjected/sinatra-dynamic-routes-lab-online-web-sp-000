@@ -41,7 +41,8 @@ class App < Sinatra::Base
       "#{@num1 / @num2}"
     else 
       "You entered an invalid number"
-    binding.pry
+    end
+    #binding.pry
   end 
   
   
