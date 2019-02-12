@@ -37,7 +37,7 @@ class App < Sinatra::Base
       "#{@num1 - @num2}"
     when "multiply"
       "#{@num1 * @num2}"
-    when @
+    when "divide"
     binding.pry
   end 
   
