@@ -25,5 +25,9 @@ class App < Sinatra::Base
     "#{@array.join(" ")}."
   end 
   
+  get '/:operation/:num1/:num2' do 
+    binding.pry
+  end 
+  
   
 end
