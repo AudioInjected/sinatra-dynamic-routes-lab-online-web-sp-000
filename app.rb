@@ -31,6 +31,7 @@ class App < Sinatra::Base
     @num2 - params[:num2]
     
     case @operation
+    binding.pry
     when "add"
       binding.pry
       "#{@num1 + @num2}"
