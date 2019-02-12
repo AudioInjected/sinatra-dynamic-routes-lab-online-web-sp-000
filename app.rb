@@ -23,6 +23,7 @@ class App < Sinatra::Base
     @array = []
     params.collect {|k, v| @array << v}
     "#{@array.join(" ")}."
-    binding.pry
   end 
+  
+  
 end
