@@ -28,7 +28,7 @@ class App < Sinatra::Base
   get '/:operation/:num1/:num2' do 
     @operation = params[:operation]
     @num1 = params[:num1]
-    @num2 - params[:num2]
+    @num2 = params[:num2]
     binding.pry
     case @operation
    
