@@ -26,7 +26,9 @@ class App < Sinatra::Base
   end 
   
   get '/:operation/:num1/:num2' do 
-    case params[:operation]
+    @operation = params[:operation]
+    @num1 = 
+    case 
     binding.pry
   end 
   
