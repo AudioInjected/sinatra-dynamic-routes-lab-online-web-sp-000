@@ -43,7 +43,6 @@ class App < Sinatra::Base
     else 
       "You entered an invalid number"
     end
-    #binding.pry
   end 
   
   
