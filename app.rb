@@ -19,5 +19,5 @@ class App < Sinatra::Base
     "#{@array}"
   end
   
-  get 'say/'
+  get '/say/:word1/:word2/:word3/:word4/:word5'
 end
