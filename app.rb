@@ -32,6 +32,7 @@ class App < Sinatra::Base
     
     case @operation
     when "add"
+      binding.pry
       "#{@num1 + @num2}"
     when "subtract"
       "#{@num1 - @num2}"
