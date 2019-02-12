@@ -29,7 +29,7 @@ class App < Sinatra::Base
     @operation = params[:operation]
     @num1 = params[:num1]
     @num2 = params[:num2]
-    binding.pry
+    #binding.pry
     case @operation
    
     when "add"
