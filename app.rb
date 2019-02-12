@@ -10,6 +10,7 @@ class App < Sinatra::Base
     @num = params[:num]
     "#{@num * @num}"
   end 
-
+  
+  get '/say/'
   
 end
